@@ -1,0 +1,330 @@
+name: fluttabc
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_tts: "0.2.4"
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/images/logo-512.png
+   - assets/images/flags/ad.png
+   - assets/images/flags/ae.png
+   - assets/images/flags/af.png
+   - assets/images/flags/ag.png
+   - assets/images/flags/ai.png
+   - assets/images/flags/al.png
+   - assets/images/flags/am.png
+   - assets/images/flags/ao.png
+   - assets/images/flags/aq.png
+   - assets/images/flags/ar.png
+   - assets/images/flags/as.png
+   - assets/images/flags/at.png
+   - assets/images/flags/au.png
+   - assets/images/flags/aw.png
+   - assets/images/flags/ax.png
+   - assets/images/flags/az.png
+   - assets/images/flags/ba.png
+   - assets/images/flags/bb.png
+   - assets/images/flags/bd.png
+   - assets/images/flags/be.png
+   - assets/images/flags/bf.png
+   - assets/images/flags/bg.png
+   - assets/images/flags/bh.png
+   - assets/images/flags/bi.png
+   - assets/images/flags/bj.png
+   - assets/images/flags/bl.png
+   - assets/images/flags/bm.png
+   - assets/images/flags/bn.png
+   - assets/images/flags/bo.png
+   - assets/images/flags/bq.png
+   - assets/images/flags/br.png
+   - assets/images/flags/bs.png
+   - assets/images/flags/bt.png
+   - assets/images/flags/bv.png
+   - assets/images/flags/bw.png
+   - assets/images/flags/by.png
+   - assets/images/flags/bz.png
+   - assets/images/flags/ca.png
+   - assets/images/flags/cc.png
+   - assets/images/flags/cd.png
+   - assets/images/flags/cf.png
+   - assets/images/flags/cg.png
+   - assets/images/flags/ch.png
+   - assets/images/flags/ci.png
+   - assets/images/flags/ck.png
+   - assets/images/flags/cl.png
+   - assets/images/flags/cm.png
+   - assets/images/flags/cn.png
+   - assets/images/flags/co.png
+   - assets/images/flags/cr.png
+   - assets/images/flags/cu.png
+   - assets/images/flags/cv.png
+   - assets/images/flags/cw.png
+   - assets/images/flags/cx.png
+   - assets/images/flags/cy.png
+   - assets/images/flags/cz.png
+   - assets/images/flags/de.png
+   - assets/images/flags/dj.png
+   - assets/images/flags/dk.png
+   - assets/images/flags/dm.png
+   - assets/images/flags/do.png
+   - assets/images/flags/dz.png
+   - assets/images/flags/ec.png
+   - assets/images/flags/ee.png
+   - assets/images/flags/eg.png
+   - assets/images/flags/eh.png
+   - assets/images/flags/er.png
+   - assets/images/flags/es-ct.png
+   - assets/images/flags/es.png
+   - assets/images/flags/et.png
+   - assets/images/flags/eu.png
+   - assets/images/flags/fi.png
+   - assets/images/flags/fj.png
+   - assets/images/flags/fk.png
+   - assets/images/flags/fm.png
+   - assets/images/flags/fo.png
+   - assets/images/flags/fr.png
+   - assets/images/flags/ga.png
+   - assets/images/flags/gb-eng.png
+   - assets/images/flags/gb-nir.png
+   - assets/images/flags/gb-sct.png
+   - assets/images/flags/gb-wls.png
+   - assets/images/flags/gb.png
+   - assets/images/flags/gd.png
+   - assets/images/flags/ge.png
+   - assets/images/flags/gf.png
+   - assets/images/flags/gg.png
+   - assets/images/flags/gh.png
+   - assets/images/flags/gi.png
+   - assets/images/flags/gl.png
+   - assets/images/flags/gm.png
+   - assets/images/flags/gn.png
+   - assets/images/flags/gp.png
+   - assets/images/flags/gq.png
+   - assets/images/flags/gr.png
+   - assets/images/flags/gs.png
+   - assets/images/flags/gt.png
+   - assets/images/flags/gu.png
+   - assets/images/flags/gw.png
+   - assets/images/flags/gy.png
+   - assets/images/flags/hk.png
+   - assets/images/flags/hm.png
+   - assets/images/flags/hn.png
+   - assets/images/flags/hr.png
+   - assets/images/flags/ht.png
+   - assets/images/flags/hu.png
+   - assets/images/flags/id.png
+   - assets/images/flags/ie.png
+   - assets/images/flags/il.png
+   - assets/images/flags/im.png
+   - assets/images/flags/in.png
+   - assets/images/flags/io.png
+   - assets/images/flags/iq.png
+   - assets/images/flags/ir.png
+   - assets/images/flags/is.png
+   - assets/images/flags/it.png
+   - assets/images/flags/je.png
+   - assets/images/flags/jm.png
+   - assets/images/flags/jo.png
+   - assets/images/flags/jp.png
+   - assets/images/flags/ke.png
+   - assets/images/flags/kg.png
+   - assets/images/flags/kh.png
+   - assets/images/flags/ki.png
+   - assets/images/flags/km.png
+   - assets/images/flags/kn.png
+   - assets/images/flags/kp.png
+   - assets/images/flags/kr.png
+   - assets/images/flags/kw.png
+   - assets/images/flags/ky.png
+   - assets/images/flags/kz.png
+   - assets/images/flags/la.png
+   - assets/images/flags/lb.png
+   - assets/images/flags/lc.png
+   - assets/images/flags/li.png
+   - assets/images/flags/lk.png
+   - assets/images/flags/lr.png
+   - assets/images/flags/ls.png
+   - assets/images/flags/lt.png
+   - assets/images/flags/lu.png
+   - assets/images/flags/lv.png
+   - assets/images/flags/ly.png
+   - assets/images/flags/ma.png
+   - assets/images/flags/mc.png
+   - assets/images/flags/md.png
+   - assets/images/flags/me.png
+   - assets/images/flags/mf.png
+   - assets/images/flags/mg.png
+   - assets/images/flags/mh.png
+   - assets/images/flags/mk.png
+   - assets/images/flags/ml.png
+   - assets/images/flags/mm.png
+   - assets/images/flags/mn.png
+   - assets/images/flags/mo.png
+   - assets/images/flags/mp.png
+   - assets/images/flags/mq.png
+   - assets/images/flags/mr.png
+   - assets/images/flags/ms.png
+   - assets/images/flags/mt.png
+   - assets/images/flags/mu.png
+   - assets/images/flags/mv.png
+   - assets/images/flags/mw.png
+   - assets/images/flags/mx.png
+   - assets/images/flags/my.png
+   - assets/images/flags/mz.png
+   - assets/images/flags/na.png
+   - assets/images/flags/nc.png
+   - assets/images/flags/ne.png
+   - assets/images/flags/nf.png
+   - assets/images/flags/ng.png
+   - assets/images/flags/ni.png
+   - assets/images/flags/nl.png
+   - assets/images/flags/no.png
+   - assets/images/flags/np.png
+   - assets/images/flags/nr.png
+   - assets/images/flags/nu.png
+   - assets/images/flags/nz.png
+   - assets/images/flags/om.png
+   - assets/images/flags/pa.png
+   - assets/images/flags/pe.png
+   - assets/images/flags/pf.png
+   - assets/images/flags/pg.png
+   - assets/images/flags/ph.png
+   - assets/images/flags/pk.png
+   - assets/images/flags/pl.png
+   - assets/images/flags/pm.png
+   - assets/images/flags/pn.png
+   - assets/images/flags/pr.png
+   - assets/images/flags/ps.png
+   - assets/images/flags/pt.png
+   - assets/images/flags/pw.png
+   - assets/images/flags/py.png
+   - assets/images/flags/qa.png
+   - assets/images/flags/re.png
+   - assets/images/flags/ro.png
+   - assets/images/flags/rs.png
+   - assets/images/flags/ru.png
+   - assets/images/flags/rw.png
+   - assets/images/flags/sa.png
+   - assets/images/flags/sb.png
+   - assets/images/flags/sc.png
+   - assets/images/flags/sd.png
+   - assets/images/flags/se.png
+   - assets/images/flags/sg.png
+   - assets/images/flags/sh.png
+   - assets/images/flags/si.png
+   - assets/images/flags/sj.png
+   - assets/images/flags/sk.png
+   - assets/images/flags/sl.png
+   - assets/images/flags/sm.png
+   - assets/images/flags/sn.png
+   - assets/images/flags/so.png
+   - assets/images/flags/sr.png
+   - assets/images/flags/ss.png
+   - assets/images/flags/st.png
+   - assets/images/flags/sv.png
+   - assets/images/flags/sx.png
+   - assets/images/flags/sy.png
+   - assets/images/flags/sz.png
+   - assets/images/flags/tc.png
+   - assets/images/flags/td.png
+   - assets/images/flags/tf.png
+   - assets/images/flags/tg.png
+   - assets/images/flags/th.png
+   - assets/images/flags/tj.png
+   - assets/images/flags/tk.png
+   - assets/images/flags/tl.png
+   - assets/images/flags/tm.png
+   - assets/images/flags/tn.png
+   - assets/images/flags/to.png
+   - assets/images/flags/tr.png
+   - assets/images/flags/tt.png
+   - assets/images/flags/tv.png
+   - assets/images/flags/tw.png
+   - assets/images/flags/tz.png
+   - assets/images/flags/ua.png
+   - assets/images/flags/ug.png
+   - assets/images/flags/um.png
+   - assets/images/flags/un.png
+   - assets/images/flags/us.png
+   - assets/images/flags/uy.png
+   - assets/images/flags/uz.png
+   - assets/images/flags/va.png
+   - assets/images/flags/vc.png
+   - assets/images/flags/ve.png
+   - assets/images/flags/vg.png
+   - assets/images/flags/vi.png
+   - assets/images/flags/vn.png
+   - assets/images/flags/vu.png
+   - assets/images/flags/wf.png
+   - assets/images/flags/ws.png
+   - assets/images/flags/xk.png
+   - assets/images/flags/ye.png
+   - assets/images/flags/yt.png
+   - assets/images/flags/za.png
+   - assets/images/flags/zm.png
+   - assets/images/flags/zw.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
